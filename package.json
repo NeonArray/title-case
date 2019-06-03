@@ -1,0 +1,14 @@
+{
+    "name": "title-case",
+    "version": "1.0.0",
+    "description": "Format a string into title case format",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./test/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tape": "^4.10.2"
+    }
+}
