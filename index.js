@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 module.exports = function (subject) {
 
     if (typeof subject !== 'string' || subject === '') {
@@ -8,7 +11,6 @@ module.exports = function (subject) {
 
     const coordinatingConjunctions = ['and', 'but', 'for', 'nor', 'or', 'so', 'yet'];
     const prepositions = ['about', 'above', 'across', 'after', 'against', 'along', 'among', 'an', 'around', 'at', 'before', 'behind', 'below', 'beneath', 'beside', 'between', 'beyond', 'by', 'despite', 'down', 'during', 'except', 'from', 'in', 'inside', 'into', 'like', 'near', 'of', 'off', 'on', 'onto', 'out', 'outside', 'over', 'past', 'per', 'since', 'through', 'throughout', 'till', 'to', 'toward', 'under', 'underneath', 'until', 'up', 'upon', 'via', 'with', 'within', 'without', 'versus'];
-
 
     return copy.split(' ').map((word) => {
 
