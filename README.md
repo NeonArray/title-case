@@ -1,5 +1,7 @@
 # Title Case
 
+### This module is in development and will not work as you expect.
+
 *Goal*:
 A small module to format a string into title case.
 
